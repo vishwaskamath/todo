@@ -1,0 +1,12 @@
+type Todo {
+  id: ID!
+  description: String!
+}
+type Query {
+  todos: [Todo]
+}
+type Mutation {
+  createTodo(description: String!): Todo!
+  updateTodo(id: ID!, description: String!): Todo!
+  deleteTodo(id: ID!): Boolean
+}

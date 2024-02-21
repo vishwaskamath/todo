@@ -1,0 +1,24 @@
+.todoMain {
+  padding: 5px;
+}
+
+.todoHeading {
+  color: #eaedeb;
+  text-align: center;
+  padding: 10px;
+}
+
+.todoHeading2 {
+  color:#8461F6;
+  text-align: center;
+  padding: 10px;
+}
+
+.todoList {
+  overflow-y: scroll;
+  color: #eaedeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}

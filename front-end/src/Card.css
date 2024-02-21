@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 60%;
+  background-color: #18181c;
+  border-radius: 10px;
+  transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 13px rgba(255, 255, 255, 0.1); /* Shadow effect on hover */
+}
+
+.card-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-desc {
+  margin: 15px;
+  color: #8385c3;
+}
+
+.card-div {
+  padding: 10px;
+}
+
+.faEdit {
+  cursor: pointer;
+}
+
+.faTrash {
+  margin-right: 10px;
+  cursor: pointer;
+}
